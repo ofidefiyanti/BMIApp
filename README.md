@@ -71,8 +71,6 @@ cd BMIApp
 mvn javafx:run
 ```
 
-Tunggu sebentar, dan aplikasi Kalkulator BMI siap digunakan! 🎉
-
 ---
 
 ## Struktur Project
@@ -88,12 +86,11 @@ BMIApp/
 │       └── resources/
 │           ├── form-bmi.fxml
 │           └── style.css
-├── screenshots/
-│   └── bmi-app.png
+├── tampilan/
+│   ├── tampilan-awal.png
+│   └── hasil-bmi.png
 ├── pom.xml
 └── README.md
-```
-
 ---
 
 ## Tentang Project
