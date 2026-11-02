@@ -15,13 +15,13 @@ Aplikasi ini dibuat menggunakan Java dan JavaFX dengan tampilan yang simpel, int
 ### Standar Kemenkes RI
 
 <p align="center">
-  ![Tampilan Kalkulator BMI](bmiKemenkes-app.png)
+  ![Tampilan Kalkulator BMI](Screenshots/bmiKemenkes-app.png)
 </p>
 
 ### Standar WHO
 
 <p align="center">
-  <![Tampilan Kalkulator BMI](bmiKemenkes-app.png)
+  <![Tampilan Kalkulator BMI](Screenshots/bmiWho-app.png)
 </p>
 
 ## Fitur Aplikasi
