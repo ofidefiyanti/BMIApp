@@ -50,26 +50,18 @@ Pastikan laptop kamu sudah memiliki:
 - NetBeans IDE atau IDE Java lainnya
 
 Untuk memeriksa apakah Java sudah terinstal, buka CMD atau terminal lalu jalankan:
-
 java -version
 
 Untuk memeriksa Maven:
-
 mvn -version
 
 Jika kedua perintah menampilkan informasi versi, berarti Java dan Maven sudah tersedia.
 
 ## Download atau Clone Repository
 
-Clone repository menggunakan perintah:
-
-git clone https://github.com/ofidefiyanti/BMIApp.git
-
-Setelah proses selesai, masuk ke folder project:
-
-cd BMIApp
-
-Jika tidak menggunakan Git, buka halaman repository GitHub, pilih Code → Download ZIP, lalu ekstrak file ZIP ke folder yang diinginkan.
+1. Clone repository menggunakan perintah: git clone https://github.com/ofidefiyanti/BMIApp.git
+2. Setelah proses selesai, masuk ke folder project: cd BMIApp
+3. Jika tidak menggunakan Git, buka halaman repository GitHub, pilih Code → Download ZIP, lalu ekstrak file ZIP ke folder yang diinginkan.
 
 ## Menjalankan melalui NetBeans IDE
 
@@ -85,13 +77,8 @@ Jika tidak menggunakan Git, buka halaman repository GitHub, pilih Code → Downl
 
 1. Buka CMD atau terminal.
 2. Masuk ke folder project yang berisi file pom.xml.
-3. Jalankan perintah berikut:
-
-mvn clean javafx:run
-
-Tunggu hingga proses build selesai.
-
-Jika build berhasil, jendela aplikasi BMI Calculator akan terbuka.
+3. Jalankan perintah berikut: mvn clean javafx:run
+4. Tunggu hingga proses build selesai.
 
 ---
 
