@@ -13,11 +13,11 @@ Aplikasi ini dibuat menggunakan Java dan JavaFX dengan tampilan yang simpel, int
 
 ### Standar Kemenkes RI
 
-![Tampilan Kalkulator BMI Kemenkes]_(bmiKemenkes-app.png)
+![Tampilan Kalkulator BMI Kemenkes](bmiKemenkes-app.png)
 
 ### Standar WHO
 
-![Tampilan Kalkulator BMI WHO]_(bmiWho-app.png)
+![Tampilan Kalkulator BMI WHO](bmiWho-app.png)
 
 ## Fitur Aplikasi
 
@@ -44,31 +44,54 @@ Aplikasi ini dibuat menggunakan Java dan JavaFX dengan tampilan yang simpel, int
 
 # Cara Menjalankan Aplikasi
 
-### Persiapan
-
 Pastikan laptop kamu sudah memiliki:
 - Java Development Kit (JDK) 17
-- Apache Maven
+- Apache Maven (jika menjalankan aplikasi melalui terminal)
+- NetBeans IDE atau IDE Java lainnya
 
-### Langkah-langkah
+Untuk memeriksa apakah Java sudah terinstal, buka CMD atau terminal lalu jalankan:
 
-**1. Clone repository**
+java -version
 
-```bash
+Untuk memeriksa Maven:
+
+mvn -version
+
+Jika kedua perintah menampilkan informasi versi, berarti Java dan Maven sudah tersedia.
+
+## Download atau Clone Repository
+
+Clone repository menggunakan perintah:
+
 git clone https://github.com/ofidefiyanti/BMIApp.git
-```
 
-**2. Masuk ke folder project**
+Setelah proses selesai, masuk ke folder project:
 
-```bash
 cd BMIApp
-```
 
-**3. Jalankan aplikasi**
+Jika tidak menggunakan Git, buka halaman repository GitHub, pilih Code → Download ZIP, lalu ekstrak file ZIP ke folder yang diinginkan.
 
-```bash
-mvn javafx:run
-```
+## Menjalankan melalui NetBeans IDE
+
+1. Buka NetBeans IDE.
+2. Pilih menu File → Open Project.
+3. Cari dan pilih folder project BMIApp yang sudah di-download atau di-clone.
+4. Tunggu hingga NetBeans membaca project dan Maven mengunduh dependencies yang diperlukan.
+5. Pastikan project berhasil dibuka tanpa pesan error.
+6. Klik kanan project BMIApp, lalu pilih Run.
+7. Aplikasi BMI Calculator akan terbuka dan siap digunakan.
+
+## Menjalankan melalui Terminal
+
+1. Buka CMD atau terminal.
+2. Masuk ke folder project yang berisi file pom.xml.
+3. Jalankan perintah berikut:
+
+mvn clean javafx:run
+
+Tunggu hingga proses build selesai.
+
+Jika build berhasil, jendela aplikasi BMI Calculator akan terbuka.
 
 ---
 
