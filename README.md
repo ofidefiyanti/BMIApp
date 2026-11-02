@@ -73,26 +73,6 @@ mvn javafx:run
 
 ---
 
-## Struktur Project
-
-```text
-BMIApp/
-├── src/
-│   └── main/
-│       ├── java/
-│       │   ├── controller/
-│       │   ├── main/
-│       │   └── model/
-│       └── resources/
-│           ├── form-bmi.fxml
-│           └── style.css
-├── tampilan/
-│   ├── tampilan-awal.png
-│   └── hasil-bmi.png
-├── pom.xml
-└── README.md
----
-
 ## Tentang Project
 
 Project ini dibuat sebagai bagian dari tugas pemrograman Java sekaligus menjadi kesempatan untuk belajar dan mencoba langsung:
